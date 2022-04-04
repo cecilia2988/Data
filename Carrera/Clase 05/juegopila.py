@@ -54,7 +54,7 @@ def jugar(lista,cantidad):
      while(cantidad>0):
          bolilla=lista.pop()
          suma=suma + bolilla
-         print("Bolilla ", bolilla)
+         print("Elemento ", bolilla)
          cantidad-=1
      print("Su suma fue de: ", suma)    
      if suma<=50:
